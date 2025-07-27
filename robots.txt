@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://revivercmsolutions.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Allow all pages
+Allow: /index.html
+Allow: /about.html
+Allow: /services.html
+Allow: /contact.html
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Block unwanted paths
+Disallow: /admin/
+Disallow: /.htaccess
+Disallow: /temp/
+Disallow: /backup/

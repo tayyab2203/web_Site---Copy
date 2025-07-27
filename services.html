@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | Revive RCM Solutions</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+    }
+    .page-header {
+      background: linear-gradient(to right, rgba(0, 156, 166, 0.85), #0b2c3c);
+      color: white;
+      padding: 90px 0;
+      text-align: center;
+    }
+    .section-heading {
+      font-weight: 700;
+      font-size: 2.2rem;
+    }
+    .icon-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+      transition: 0.3s;
+    }
+    .icon-box:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #0b2c3c !important;
+      color: #bbb;
+    }
+    footer a {
+      color: #bbb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+     <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-info" href="./index.html"
+          >Revive RCM</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Offcanvas for Mobile -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav">
+      <div class="offcanvas-header">
+        <h5>Menu</h5>
+        <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Our Services</h1>
+      <p class="lead mt-3">Supporting your success through expert billing and practice management</p>
+    </div>
+  </header>
+
+  <!-- Core Services -->
+  <section class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-heading text-center mb-5">What We Offer</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="icon-box h-100">
+            <i class="bi bi-journal-text fs-1 text-primary mb-3"></i>
+            <h5>Credentialing & Contracting</h5>
+            <p>We streamline your credentialing process with insurance payers and provider enrollment to ensure timely reimbursements.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="icon-box h-100">
+            <i class="bi bi-cloud-arrow-down-fill fs-1 text-success mb-3"></i>
+            <h5>EHR, PM & Clearinghouse Setup</h5>
+            <p>We implement electronic health record systems and connect your practice with top-tier clearinghouses for seamless billing flow.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="icon-box h-100">
+            <i class="bi bi-credit-card-2-front-fill fs-1 text-warning mb-3"></i>
+            <h5>Electronic Transactions Setup</h5>
+            <p>Our team sets up secure, HIPAA-compliant digital payment and claim submission channels to reduce paperwork and increase revenue velocity.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="icon-box h-100">
+            <i class="bi bi-bar-chart-line-fill fs-1 text-danger mb-3"></i>
+            <h5>Revenue Cycle Management (RCM)</h5>
+            <p>From claim creation to payment posting and denial management—we manage it all while improving your collection rates.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialties We Serve -->
+  <section class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-heading text-center mb-4">Specialties We Serve</h2>
+      <p class="text-center text-muted mb-5">Revive RCM supports a wide range of specialties, from solo practitioners to multi-specialty groups.</p>
+      <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+  <div class="col"><div class="icon-box h-100">Multi-Specialty</div></div>
+  <div class="col"><div class="icon-box h-100">Urgent Care</div></div>
+  <div class="col"><div class="icon-box h-100">Family Practice</div></div>
+  <div class="col"><div class="icon-box h-100">Internal Medicine</div></div>
+  <div class="col"><div class="icon-box h-100">OB-GYN</div></div>
+  <div class="col"><div class="icon-box h-100">Sleep Medicine</div></div>
+  <div class="col"><div class="icon-box h-100">Cardiology</div></div>
+  <div class="col"><div class="icon-box h-100">Pediatrics</div></div>
+  <div class="col"><div class="icon-box h-100">Nephrology</div></div>
+  <div class="col"><div class="icon-box h-100">Pain Management</div></div>
+  <div class="col"><div class="icon-box h-100">Immunology</div></div>
+  <div class="col"><div class="icon-box h-100">Orthopedics</div></div>
+  <div class="col"><div class="icon-box h-100">Neurology</div></div>
+  <div class="col"><div class="icon-box h-100">Radiology</div></div>
+  <div class="col"><div class="icon-box h-100">Psychiatry</div></div>
+  <div class="col"><div class="icon-box h-100">Mental Health</div></div>
+  <div class="col"><div class="icon-box h-100">Chiropractic</div></div>
+  <div class="col"><div class="icon-box h-100">Physical Therapy</div></div>
+  <div class="col"><div class="icon-box h-100">Occupational Therapy</div></div>
+  <div class="col"><div class="icon-box h-100">Speech Pathology</div></div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5  text-white text-center" style="background-color: #145575 !important">
+    <div class="container" data-aos="zoom-in">
+      <h2 class="mb-3 fw-bold">Let’s Maximize Your Practice Revenue</h2>
+      <p class="lead mb-4">Book a free consultation and discover how we can streamline your operations.</p>
+      <a href="contact.html" class="btn btn-light btn-lg">Book Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+    <footer class="pt-5 pb-4 text-white" style="background-color: #0b2c3c !important">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <h5 class="fw-bold">Revive RCM Solutions</h5>
+            <p class="small">
+              Full-service RCM, credentialing & EHR setup for healthcare
+              providers. Focus on care while we manage revenue.
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h6 class="fw-bold">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li><a href="./about.html" class="text-white-50">About</a></li>
+              <li><a href="./services.html" class="text-white-50">Services</a></li>
+              <li>
+                <a href="#testimonials" class="text-white-50">Testimonials</a>
+              </li>
+              <li><a href="./contact.html" class="text-white-50">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h6 class="fw-bold">Contact</h6>
+            <p class="small mb-1">
+              <i class="bi bi-geo-alt me-2"></i>Minneapolis, MN
+            </p>
+            <p class="small mb-1">
+              <i class="bi bi-envelope me-2"></i>info@revivercmsolutions.com
+            </p>
+            <p class="small">
+              <i class="bi bi-telephone me-2"></i>857-208-7677
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h6 class="fw-bold">Follow Us</h6>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-white-50 fs-5"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-white-50 fs-5"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="text-white-50 fs-5"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr class="border-light my-4" />
+        <div class="text-center small">
+          &copy; 2025 Revive RCM Solutions. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <!-- WhatsApp Chat Button -->
+    <a
+      href="https://wa.me/8572087677"
+      class="btn btn-success rounded-circle shadow-lg"
+      style="
+        position: fixed;
+        bottom: 80px;
+        right: 20px;
+        z-index: 1080;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="bi bi-whatsapp fs-4 text-white"></i>
+    </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  </script>
+</body>
+</html>

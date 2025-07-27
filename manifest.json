@@ -1,0 +1,29 @@
+{
+  "name": "Revive RCM Solutions - Medical Billing & Revenue Cycle Management",
+  "short_name": "Revive RCM",
+  "description": "Professional Revenue Cycle Management, Medical Billing, Credentialing & EHR Setup services for healthcare providers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007b8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["medical", "healthcare", "business", "finance"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
